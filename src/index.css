@@ -1,0 +1,87 @@
+@import "tailwindcss";
+
+*{
+  box-sizing: border-box;
+}
+ /* Navbar-style-start */
+.discount-container{
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background-color: #eff4f7;
+  overflow: hidden;
+  /* padding:7px 0; */
+  max-width: 1600px;
+  margin: 0 auto;
+
+}
+.discount-inner-container{
+  font-size: 11px;
+  flex: 1;
+  display: flex;
+  min-height: 38px;
+  flex-wrap: wrap;
+  white-space: normal;
+  text-align:center;
+  align-items: center;
+  justify-content: center;
+  padding: 0 15px;
+}
+.discount-inner-container span{
+   letter-spacing: -0.5px;
+   font-family:"metropolis-regular" ;
+}
+.discount-inner-container span a{
+  text-decoration: underline;
+}
+/* Discount End */
+.nav-container{
+  position: sticky;
+  top:37px;
+  display: flex;
+  align-items: center;
+  padding:16px 12px ;
+  gap:20px
+
+}
+.nav-container nav{
+  display: flex;
+  align-items: center;
+}
+.brand-logo-container{
+  position: relative;
+  top:-1px
+}
+.menu-btn{
+  width: 18px;
+  height:14px;
+  max-width: 18px;
+}
+.brand-logo{
+  max-width:60px;
+  width: 151px;
+}
+.nav-icons-container{
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  width: 100%;
+  grid-gap: 20px;
+}
+.search-icon-btn{
+  height: 20px;
+  width: 20px;
+  display: flex;
+  align-items: center;
+  
+}
+.search-icon{
+  margin-left: 4px;
+}
+.navbar-cart-icon{
+  display:flex;
+  align-items:center;
+}
+
+
+/* Navbar-style-end */

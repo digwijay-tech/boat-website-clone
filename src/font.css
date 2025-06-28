@@ -1,0 +1,16 @@
+@font-face {
+    font-family:"metropolis-regular";
+    src: url('https://www.boat-lifestyle.com/cdn/shop/t/1004/assets/Metropolis-Regular.woff2?v=180104907505302808671748518347');
+}
+@font-face {
+    font-family: "metropolis-medium";
+    src: url('https://www.boat-lifestyle.com/cdn/shop/t/1004/assets/Metropolis-Medium.woff?v=46200792291647091211748518349');
+}
+@font-face {
+    font-family: "metropolis-semibold";
+    src: url('https://www.boat-lifestyle.com/cdn/shop/t/1004/assets/Metropolis-SemiBold.woff?v=146713148714939632341748518348');
+}
+@font-face {
+    font-family: "metropolis-bold";
+    src: url('https://www.boat-lifestyle.com/cdn/shop/t/1004/assets/Metropolis-Bold.woff?v=90035020776352744831748518350');
+}
