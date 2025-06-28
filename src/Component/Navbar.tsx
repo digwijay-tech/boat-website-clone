@@ -12,6 +12,16 @@ const Navbar = () => {
               alt="hamburger-icon"
             />
           </button>
+
+          <div className="menu-large">
+            <ul>
+                <li className="menu-list">Categories</li>
+                <li className="menu-list">boAt Personalisation</li>
+                <li className="menu-list">Corporate Orders</li>
+                <li className="menu-list">Gifting Store</li>
+                <li className="menu-list">More</li>
+            </ul>
+          </div>
         </nav>
         <a href="#" className="brand-logo-container">
           <img
