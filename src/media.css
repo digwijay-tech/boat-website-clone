@@ -40,30 +40,9 @@
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1440px) {
-  .nav-container {
-    padding: 21px 40px;
-    /* justify-content: unset !important; */
-  }
-  .nav-container nav {
-    width: auto;
-  }
-  .menu-btn {
-    display: none;
-  }
-  .brand-logo-container {
-    order: -1;
-    display: flex;
-    flex: 0.3 1 0;
-  }
-    .menu-large{
-        width: 100%;
-    }
-  .menu-large ul{
-    display: flex;
-    width: 100%;
-
-  }
-  .menu-list{
-    margin-right:32px;
+  
+  .nav-container{
+    display :none !important;
+    
   }
 }
