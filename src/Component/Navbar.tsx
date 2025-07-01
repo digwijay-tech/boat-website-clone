@@ -13,15 +13,7 @@ const Navbar = () => {
             />
           </button>
 
-          <div className="menu-large">
-            <ul className="menu-list-ul">
-              <li className="menu-list">Categories</li>
-              <li className="menu-list">boAt Personalisation</li>
-              <li className="menu-list">Corporate Orders</li>
-              <li className="menu-list">Gifting Store</li>
-              <li className="menu-list">More</li>
-            </ul>
-          </div>
+          
         </nav>
 
         <a href="#" className="brand-logo-container">
@@ -41,11 +33,7 @@ const Navbar = () => {
               height="20"
               alt="search-icon"
             />
-            <input
-              type="text"
-              className="search-icon-btn-input"
-              style={{ display: "none" }}
-            />
+            
           </div>
           <div className="nav-profile-icon">
             <svg
@@ -81,6 +69,7 @@ const Navbar = () => {
           </div>
         </div>
       </div>
+      
       <div className="nav-container-large">
         <div className="large-header">
           <div className="desktop-nav">
