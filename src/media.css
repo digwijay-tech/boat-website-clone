@@ -15,7 +15,7 @@
     width: inherit;
   }
   .category-container{
-    display: none;
+    display: none !important;
   }
 }
 
