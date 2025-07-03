@@ -1,0 +1,108 @@
+{
+  "products": [
+    {
+      "id": "boat_airdopes_311_pro",
+      "name": "boAt Airdopes 311 PRO",
+      "src": "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/AD_311_Pro.jpg?v=1716880848",
+      "price": {
+        "current": "899",
+        "original": "4,999",
+        "discount_percentage": 82
+      },
+      "playback_hours": 50,
+      "rating": 4.5,
+      "badges": ["🎉 New Launch"],
+      "category": "earbuds"
+    },
+    {
+      "id": "boat_rockerz_235_pro",
+      "name": "boAt Rockerz 235 Pro",
+      "src": "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/boAt-Rockerz-235-Pro.jpg?v=1682579854",
+      "price": {
+        "current": "899",
+        "original": "1,999",
+        "discount_percentage": 55
+      },
+      "playback_hours": 20,
+      "rating": 4.9,
+      "badges": ["✨Trending"],
+      "category": "earphones"
+      
+    },
+    {
+      "id": "boat_airdopes_161",
+      "name": "boAt Airdopes 161",
+      "src": "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/AD_161.png?v=1745235467",
+      "price": {
+        "current": "899",
+        "original": "2,499",
+        "discount_percentage": 64
+      },
+      "playback_hours": 40,
+      "rating": 4.3,
+      "badges": ["✍️ Engraving Available"],
+      "category": "earbuds"
+    },
+    {
+      "id": "boat_storm_call_3_plus",
+      "name": "boAt Storm Call 3 Plus",
+      "src": "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/st_call_3_plus_1.png?v=1741243132",
+      "price": {
+        "current": "1,449",
+        "original": "7,999",
+        "discount_percentage": 81
+      },
+      "rating": 5.0,
+      "badges": ["🎉 New Launch"],
+      "category": "smartwatch"
+    },
+    {
+      "id": "boat_stone_350",
+      "name": "boAt Stone 350",
+      "src": "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/1_fdcbadf5-5d2d-4ce3-9018-ee3e535fb60b.png?v=1745236290",
+      "price": {
+        "current": "1,799",
+        "original": "3,499",
+        "discount_percentage": 48
+      },
+      "playback_hours": 12,
+      "rating": 4.0,
+      "badges": ["✨Trending"],
+      "category": "speaker"
+    },
+    {
+      "id": "boat_energyshroom",
+      "name": "boAt EnergyShroom",
+      "src": "https://cdn.shopify.com/s/files/1/0057/8938/4802/files/300_bLACK-min.png?v=1725983268",
+      "price": {
+        "current": "1,399",
+        "original": "3,499",
+        "discount_percentage": 60
+      },
+      "battery_capacity": "10000mAh",
+      "rating": 5.0,
+      "badges": ["🎉 EXTRA 500 OFF"],
+      "category": "power_bank"
+    }
+  ],
+  "metadata": {
+    "total_products": 6,
+    "categories": [
+      "earbuds",
+      "earphones",
+      "smartwatch",
+      "speaker",
+      "power_bank"
+    ],
+    "available_badges": [
+      "New Launch",
+      "Trending",
+      "Engraving Available",
+      "EXTRA 500 OFF"
+    ],
+    "price_range": {
+      "min": 899,
+      "max": 1799
+    }
+  }
+}

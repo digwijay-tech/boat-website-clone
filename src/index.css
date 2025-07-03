@@ -364,9 +364,9 @@
 .cardsm-text-container {
   padding: 4px !important;
   background-color: #fafafa;
-  border-color: 1px soild #ecf0f4;
+  border: 1px solid #ecf0f4;
   border-radius: 0px 0px 10px 10px ;
-  line-height: normal !important;
+  
   width: 100%;
   color: #000;
   display: flex;
@@ -374,4 +374,233 @@
   justify-content: center;
   position: relative;
   
+}
+
+.cardsm-text-inner{
+  display: grid;
+  justify-content: space-between;
+  grid-template: 'p_title p_title' 'p_spliter p_spliter' 'p_price p_variant';
+  margin-top: 8px;
+  align-items: flex-start;
+  min-height: 1.8rem;
+  line-height: normal !important;
+  font-size: 13px;
+  line-height: 1.6923076923;
+}
+.cardsm-heading{
+  grid-area: p_title;
+  min-height: 25px;
+  overflow: hidden;
+  font-size: 12px !important;
+  margin-top: 5px;
+  letter-spacing: -0.56px;
+  font-family: "metropolis-bold";
+}
+.dotted-line{
+  grid-area: p_spliter;
+  display: flex;
+  width: 100% !important;
+  max-width: 100%;
+  height: 1px;
+  border:1px dashed #e3e3e3;
+  margin: 4px 0px;
+
+}
+.cardsm-price{
+  grid-area: p_price;
+  padding-top: 4px;
+  line-height: normal !important;
+  font-family: "metropolis-semibold";
+  font-size: 13px;
+  width: 100%;
+  color:#000;
+  display: inline-flex;
+  border-bottom: none;
+  flex-direction:column;
+  row-gap: 4px;
+  flex-wrap: wrap;
+  align-items: baseline;
+  
+}
+.price-outer{
+  font-size: 14px !important;
+  margin-right: 4px;
+  line-height: normal;
+  letter-spacing: -0.64px;
+  font-family: "metropolis-bold" !important;
+}
+.grid-price{
+  display:flex;
+  align-items: center;
+  column-gap: 8px;
+  height: 18px;
+}
+.prev-price{
+  font-size: 10px !important;
+  height: 18px;
+  color:#b2b9bf;
+  letter-spacing:-0.48px;
+  text-decoration: line-through;
+  font-family:"metropolis-medium";
+  line-height: 17px;
+}
+.off{
+  font-size: 10px;
+  display: block;
+  width: max-content;
+  color:#12b985;
+  font-family: "metropolis-bold";
+  
+}
+.color-variant{
+  grid-area:p_variant;
+  max-height:20px;
+  padding-top:6px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  border-radius: 5px;
+
+}
+.color-circle{
+  background-color:#000;
+  margin-left: -6px;
+  width:12px;
+  height:12px;
+  border-radius:50%;
+  border:1px solid #d0d9de;
+}
+.color{
+  background-color: #a6a5a6;
+}
+.variant-extra{
+  font-size:10px ;
+  letter-spacing:-0.48px;
+  color:#4e5358;
+  font-family:"metropolis-regular"
+}
+
+
+/* Live Sale */
+
+.live-sale-container{
+  position: relative;
+  width: 100%;
+  max-width: 1600px;
+  margin: 0px auto;
+  padding: 0px 16px;
+
+}
+.heading-section{
+  display: flex;
+  width: 100%;
+  justify-content: space-between !important;
+  align-items: center;
+}
+.head-title{ /*  Can reusable */
+  color: #1a2024;
+  font-size: 24px;
+  text-align: left;
+  margin-bottom: 12px;
+  font-family:"metropolis-medium" ;
+  line-height: 1.2;
+}
+.inner-head-title{
+  position: relative;
+  color:#1a2024;
+  font-size: 24px;
+  line-height: 28.8px;
+  font-family:"metropolis-bold" ;
+}
+.inner-head-title::after{
+  content:"";
+  display: block;
+  width: 24px;
+  height: 2px;
+  background-color: #D83333;
+  position: absolute;
+  bottom: 1.5px;
+  right: 0;
+  font-family: "metropolis-medium";
+}
+.view-all-head-section{
+  color: #2f5b96;
+  font-size: 14px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  font-family: "metropolis-bold";
+}
+.svg-arrow{
+  margin-top: -1px;
+}
+.card-grid{
+  display: flex !important;
+  flex-wrap: wrap !important;
+  column-gap:5.6px;
+  row-gap: 10px;
+  margin: 0 -8px;
+
+}
+
+/* Policy section */
+
+.policy-container{
+  background-color: #f6faff;
+  color: #000;
+  padding : 7px 0;
+  margin-bottom: 25px;
+
+}
+.policy-inner-container{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  line-height: 1.5;
+  margin: auto;
+  max-width: 375px;
+  text-align: center;
+  padding-bottom: 3.5px;
+}
+
+.policies{
+  position: relative;
+  flex: 0 0 25%;
+  max-width: 25%;
+  width: 100%;
+  font-family: "metropolis-regular";
+  line-height: 1.5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin: 0px -15px; 
+}
+.policy-icon{
+  position: relative;
+  width: 100%;
+  padding: 0px 15px;
+  text-align: center !important;
+}
+.policy-text{
+  position: relative;
+  width: 100%;
+  padding: 0px 15px;
+  font-size: 9px;
+  font-family: "metropolis-regular";
+  line-height: 12px;
+
+}
+.i-icon{
+ 
+  width: 15px;
+  height: 15px;
+}
+
+.warrenty{
+  display: flex;
+  align-items: center;
+  margin-left: 5px ;
 }
