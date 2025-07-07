@@ -1,3 +1,10 @@
+@media only screen and (min-width: 425px) {
+  .carousel-item{
+    width:425px !important;
+  }
+}
+
+
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
 }
@@ -16,6 +23,16 @@
   }
   .category-container{
     display: none !important;
+  }
+  .card-grid{
+    margin: unset !important;
+    justify-content: space-between !important;
+  }
+  .live-sale-container{
+    padding: 0px 40px !important;
+  }
+  .carousel-item{
+    width: 768px !important;
   }
 }
 
@@ -38,6 +55,32 @@
   }
   .brand-logo-container {
     top: 0 !important;
+  }
+  #large-screen{
+    display: block !important;
+  }
+  #small-screen{
+    display: none;
+  }
+  .card-container{
+    max-width:16% !important ;
+    min-width: 16% !important;
+  }
+  .cardsm-heading{
+    font-size: 15px !important;
+    margin-top: 19px !important;
+  }
+  .carousel-item{
+    width:1024px !important;
+  }
+  .hero-image-container{
+    padding: 0px !important ;
+  }
+  .image_{
+    border-radius: unset !important;
+  }
+  .carousel-btn{
+    display: block !important;
   }
 }
 
@@ -69,4 +112,7 @@
   width: 151px;
   max-width: 85px;
 }
+.carousel-item{
+  width:1440px !important;
+ }
 }
