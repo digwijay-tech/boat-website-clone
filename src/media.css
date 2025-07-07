@@ -34,6 +34,14 @@
   .carousel-item{
     width: 768px !important;
   }
+  .prime-container{
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+  }
+  .big-deal-container{
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -70,6 +78,9 @@
     font-size: 15px !important;
     margin-top: 19px !important;
   }
+  .card-grid{
+    justify-content: flex-start !important;
+  }
   .carousel-item{
     width:1024px !important;
   }
@@ -82,6 +93,18 @@
   .carousel-btn{
     display: block !important;
   }
+  .content-btn{
+    font-size: 16px !important;
+    margin-right:30px !important;
+  }
+  .content-btn-active{
+    font-size: 16px !important;
+    line-height: 0.88 !important;
+    letter-spacing: -0.64px !important;
+    padding: 9px 21px !important;
+    margin-right: 30px !important;   
+  }
+
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */

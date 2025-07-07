@@ -4,6 +4,8 @@ import PoweredByList from "./Component/PoweredByList";
 import LiveSale from "./Component/LiveSale";
 import Policy from "./Component/Policy";
 import Hero from "./Component/Hero";
+import PrimeSeries from "./Component/PrimeSeries";
+import BigDeal from "./Component/BigDeal";
 
 const App = () => {
 
@@ -15,6 +17,8 @@ const App = () => {
       <PoweredByList />
       <Policy/>
       <LiveSale/>
+      <PrimeSeries/>
+      <BigDeal/>
     </div>
   );
 };

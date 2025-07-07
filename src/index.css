@@ -603,7 +603,10 @@
   position: relative;
   width: 100%;
   max-width: 1600px;
-  margin: 0px auto;
+  margin-top: 0px ;
+  margin-bottom: 25px;
+  margin-left: auto;
+  margin-right: auto;
   padding: 0px 16px;
 
 }
@@ -635,7 +638,7 @@
   height: 2px;
   background-color: #D83333;
   position: absolute;
-  bottom: 1.5px;
+  bottom: 1.2px;
   right: 0;
   font-family: "metropolis-medium";
 }
@@ -723,4 +726,197 @@
   align-items: center;
   /* margin-left: 5px ; */
   justify-content: center;
+}
+
+/* PrimeSeries */
+
+.prime-series{
+  display: flow-root !important;
+  margin-bottom: 25px;
+}
+.prime-container{
+  position:relative ;
+  width: 100%;
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 16px;
+  padding-right: 16px;
+}
+.prime-header{
+  display: flex;
+  align-items: center !important;
+  justify-content: space-between !important;
+
+}
+.prime-poster{
+  margin-bottom:1em;
+  position: relative;
+  display: flex;
+
+}
+.prime-poster-image{
+  border-radius: 10px;
+}
+
+/* Big Deal */
+
+.big-deal-container{
+  padding: 0px 16px;
+  margin-bottom: 25px;
+}
+.big-heading{
+  margin-bottom: 0px !important;
+}
+.deal-category-container{
+  margin-top: 16px;
+  margin-left: -16px;
+  margin-right: -16px;
+  position: relative;
+
+}
+.deal-scrollable-container{
+  scrollbar-width: none;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+.deal-scroll-content{
+  padding-left: 16px;
+  padding-right: 16px;
+  min-width: max-content;
+  max-width: max-content;
+  position: relative;
+  line-height: 1;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items:center;
+
+}
+.content-btn-active{
+  border-radius: 17px !important;
+  background-color: #ecf0f4;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: -0.48px;
+  color: #1a2024;
+  padding: 8px 16px;
+  margin-right: 20px ;
+  font-family: "metropolis-medium";
+  cursor: pointer;
+}
+
+.content-btn{
+  background-color: #fff;
+  font-size: 12px;
+  font-family: "metropolis-regular";
+  color: #1a2024;
+  margin-right: 20px ;
+  line-height: 1.5;
+  cursor: pointer;
+  opacity: 0.7;
+ 
+  display: inline-block;
+}
+
+
+
+
+
+/* Product Page Start */
+.product-card-container{
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  border-radius: 10px;
+  border: solid 1px #ecf0f4;
+  background-color: #fafafa;
+  padding: 4px;
+
+}
+.product-image-container{
+  position: relative;
+  width: 100%;
+  margin-bottom:12px;
+  background: #f5f5f5;
+  border-radius: 8px;
+}
+.product-feature{
+  font-size: 10px;
+  max-width: 100% !important;
+  left: 0;
+  border:0;
+  border-radius: 0 0 8px 8px !important;
+  bottom:-1dvh;
+  position: absolute;
+  display:flex;
+  width: 100%;
+  line-height: normal;
+  align-items: end;
+  justify-content: center;
+  top: unset;
+  z-index: 1;
+  padding: 6px 10px !important;
+  letter-spacing:-0.48px;
+  background: #fcc50b;
+  font-family: "metropolis-bold";
+}
+.product-label{
+  display: flex;
+  align-items:center;
+  background:black;
+  color:#fff;
+  letter-spacing:-0.4px;
+  top:10px;
+  max-width:max-content;
+  left: 0px;
+  transform: translate(0);
+  border-radius: 0px 5px 5px 0px !important;
+  padding:4px 8px 5px 3px !important;
+  font-size: 10px;
+  z-index: 1;
+  position:absolute;
+  justify-content:center;
+  width: 100%;
+  line-height: normal;
+}
+.product-image{
+  position: relative;
+  aspect-ratio: 1;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.image-product{
+  border-radius: 8px 8px 0px 0px;
+  height: 100%;
+  width: 100%;
+  max-width: 100%;
+  max-height:100%;
+  top: 0px;
+  left:0px;
+  object-fit:cover;
+  object-position:center;
+
+}
+.product-detail-container{
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  flex-grow:1;
+  position:relative;
+  width:100%;
+  text-align:left;
+  color:#000;
+  max-width: 100%;
+  padding-left: 3px;
+  padding-right:3px;
+}
+.rating-container{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height:25.2px;
+  line-height:1.6923076923 ;
+  font-size: 13px;
 }

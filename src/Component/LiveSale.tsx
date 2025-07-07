@@ -27,7 +27,7 @@ const LiveSale = () => {
           </svg>
         </div>
       </header>
-      <CardGrid/>
+      <CardGrid />
     </section>
   );
 };
