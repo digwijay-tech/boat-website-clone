@@ -42,6 +42,31 @@
     padding-left: 40px !important;
     padding-right: 40px !important;
   }
+  .bread-container{
+    padding: 0px 40px !important;
+  }
+  .bread-content-ol{
+    margin-bottom: 0px !important;
+  }
+  .product-page-container{
+    padding: 0px 40px !important;
+  }
+  .product-outer-container{
+    margin-top: 37px;
+  }
+  .product-page-heading{
+    font-size: 24px !important;
+  }
+  .product-share-btn{
+    display: none !important;
+  }
+  .filter-btn-container span{
+    font-size: 15px !important;
+    letter-spacing: 1px;
+  }
+  .filter-label{
+    font-size: 15px !important;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -104,7 +129,10 @@
     padding: 9px 21px !important;
     margin-right: 30px !important;   
   }
-
+.product-orientation-btn{
+  display: none;
+  
+}
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */

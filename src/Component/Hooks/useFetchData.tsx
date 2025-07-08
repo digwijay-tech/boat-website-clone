@@ -5,6 +5,7 @@ import axios from "axios"
 type FetchProps ={
     url? :string
 }
+
 type ProductRes ={
   products : Product[]
   metadata : any[]
