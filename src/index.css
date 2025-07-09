@@ -33,6 +33,7 @@
 .discount-inner-container span a {
   text-decoration: underline;
 }
+
 /* Discount End */
 .nav-container {
   position: sticky;
@@ -166,6 +167,111 @@
 .cart-icon {
   margin-top: -1px;
 }
+.nav-menu {
+  position: fixed;
+  top: 93px;
+  max-width: 93vw;
+  z-index: 999;
+  width: 100%;
+  right: auto;
+  left: 0;
+  transform: translate(0px);
+  visibility: visible;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  max-height: 100vh;
+  background: #fff;
+  transition: transform 0.6s cubic-bezier(0.75, 0, 0.175, 1),
+    visibility 0.6s cubic-bezier(0.75, 0, 0.175, 1);
+  font-size: 14px;
+}
+.nav-menu-close{
+  transform: translate(-100%);
+  visibility: hidden;
+}
+.nav-menu-backdrop{
+  visibility: visible;
+  opacity: .5;
+  position: fixed;
+  top: 0;
+  left: 100%;
+  right: auto;
+  content: "";
+  height: 100vh;
+  width:100vw;
+  background:#000;
+  transition: visibility .6s ease-in-out ,opacity .6s ease-in-out;
+}
+.backdrop-close{
+  opacity: 0;
+  visibility: hidden;
+}
+.nav-menu-content{
+  margin-top: 4px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  flex-grow:1;
+}
+.nav-menu-ul{
+  padding-bottom: 140px;
+  margin-top: 0px;
+}
+.nav-menu-ul-items{
+  opacity: 1;
+  width: 95%;
+  margin: auto;
+  border: solid 1.5px #eff3f5;
+  border-radius: 10px;
+  display: flow-root;
+}
+.nav-menu-header{
+  border: 1.5px solid #eff3f5;
+  border-top-left-radius: 10px ;
+  border-top-right-radius: 10px;
+  background: #f7f9fa;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  width:100%;
+  margin:0px;
+  padding:12px 0px;
+  font-size:16px;
+  font-family: "metropolis-regular";
+  font-weight: 600;
+  color:#1a2024;
+  justify-content: space-between;
+  padding-inline: 15px;
+  height: 56px;
+  padding-left: 15px;
+}
+.nav-menu-header span{
+  position: relative;
+}
+.nav-menu-header[aria-expanded="true"] span::before{
+  content: url("https://cdn.shopify.com/s/files/1/0057/8938/4802/files/minus.svg?v=1686829773");
+  width: 35px;
+  padding-right: 15px;
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-60%);
+  font-weight: 400;
+  color:#868c91;
+}
+.nav-menu-header[aria-expanded="false"] span::before{
+  content: url("https://cdn.shopify.com/s/files/1/0057/8938/4802/files/plus.svg?v=1686829773");
+  width: 30px;
+  padding-right: 15px;
+  position: absolute;
+  top:50%;
+  left:50%;
+  transform: translate(-50%,-60%);
+  font-weight: 400;
+  color:#868c91;
+  font-size: 30px;
+}
+
 
 /* Navbar-style-end */
 
@@ -1066,14 +1172,14 @@
   border-radius: 3.5px;
 }
 .bread-content-ol {
-  margin-bottom: 15px ;
+  margin-bottom: 15px;
   text-overflow: ellipsis;
   overflow: hidden;
   white-space: nowrap;
   margin-top: 0px;
   display: inline-flex;
   list-style: none;
-}    
+}
 .bread-list-item {
   font-size: 9px;
   text-decoration: none;
@@ -1151,7 +1257,7 @@
   align-items: baseline;
 }
 
-.filter-btn-container span{
+.filter-btn-container span {
   border-radius: 17px;
   color: #000;
   background: #ecf0f2;
@@ -1163,13 +1269,13 @@
   line-height: 1.5;
   letter-spacing: 0.16px;
 }
-#filter-form{
+#filter-form {
   height: 100%;
   display: flex;
   align-items: baseline;
-  gap: 10px;  
+  gap: 10px;
 }
-.filter-btns{
+.filter-btns {
   white-space: nowrap;
   cursor: pointer;
   position: relative;
@@ -1177,38 +1283,36 @@
   align-items: baseline;
 }
 
-.filter-label{
-  padding:8px 16px;
+.filter-label {
+  padding: 8px 16px;
   border-radius: 17px;
   margin-top: 10px;
-  margin-bottom:0px;
+  margin-bottom: 0px;
   cursor: pointer;
-  color:#1a202475;
+  color: #1a202475;
   white-space: nowrap;
   font-size: 14px;
   font-family: "metropolis-regular";
 }
-.products-cards-container{
-scroll-margin-top:162.938px ;
-
+.products-cards-container {
+  scroll-margin-top: 162.938px;
 }
-.product-something{
+.product-something {
   margin-bottom: 16px;
   display: flex;
   justify-content: center;
   align-items: flex-start;
 }
-.products-card-list{
+.products-card-list {
   position: relative;
   display: block;
   margin-top: 8px;
-                                 
 }
-.product-card-grid{
+.product-card-grid {
   display: grid;
   column-gap: 9px;
   row-gap: 14px;
-  grid-template-columns:173.5px 173.5px ;
+  grid-template-columns: 173.5px 173.5px;
   overflow: hidden;
-  margin:0px -8px;
+  margin: 0px -8px;
 }

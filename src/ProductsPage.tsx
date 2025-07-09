@@ -1,8 +1,10 @@
 import BreadCrumbs from "./Component/BreadCrumbs";
+import { useFetchData } from "./Component/Hooks/useFetchData";
 import Navbar from "./Component/Navbar";
 import ProductPgCard from "./Component/ProductPgCard";
 
 const ProductsPage = () => {
+  const products = useFetchData({url:"/product.json"})
   return (
     <div className="Products-page ">
       <Navbar />
@@ -92,8 +94,9 @@ const ProductsPage = () => {
               <div className="product-something"></div>
               <div className="products-card-list">
                 <div className="product-card-grid">
-                  <ProductPgCard />                              
-                  <ProductPgCard />
+                 {products.map(items =>(
+                      <ProductPgCard {...items}/>    
+                 ))}
                 </div>
               </div>
             </section>
@@ -103,5 +106,6 @@ const ProductsPage = () => {
     </div>
   );
 };
+
 
 export default ProductsPage;
