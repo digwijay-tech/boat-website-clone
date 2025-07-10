@@ -248,6 +248,13 @@
 .nav-menu-header span{
   position: relative;
 }
+.nav-menu-header[aria-expanded="false"]{
+   background: #fff !important;
+  border-radius: 0px !important;
+  margin-top: 0px;
+  border:0px !important;
+  outline: 0px !important;
+}
 .nav-menu-header[aria-expanded="true"] span::before{
   content: url("https://cdn.shopify.com/s/files/1/0057/8938/4802/files/minus.svg?v=1686829773");
   width: 35px;
@@ -271,8 +278,50 @@
   color:#868c91;
   font-size: 30px;
 }
+.nav-menu-ul-content-expand{
+  overflow: visible;
+  height: auto;
+  visibility: visible;
 
+}
 
+.nav--menu-ul-content-collapse{
+  overflow: hidden !important;
+  height: 0px !important;
+  visibility: hidden !important;
+  
+}
+.nav-menu--inner-ul{
+  padding: 10px 21px !important;
+  margin: 0px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1%;
+  background: #fcfcfc;
+}
+.--ul-image{
+  padding: 8px;
+  display:flex;
+  align-items:end;
+  border-radius: 5px;
+
+}
+.nav-menu--inner-li{
+  width: 29%;
+  margin-bottom: 20px;
+  margin-right: 10px;
+}
+.nav-menu--inner-li p{
+  max-width: 95%;
+  margin: 0 auto;
+  font-size: 12px;
+  /* font-weight: 500; */
+  line-height: 1.17;
+  letter-spacing: -.48px;
+  text-align: center;
+  color:#1a2024;
+  font-family: "metropolis-medium";
+}
 /* Navbar-style-end */
 
 /* Category section */

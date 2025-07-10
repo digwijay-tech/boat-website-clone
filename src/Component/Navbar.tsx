@@ -196,13 +196,50 @@ const Navbar = () => {
           <span className={`nav-menu-backdrop ${isNavMenuOpen ? "" :"backdrop-close"}`} onClick={handleNavClick}></span>
           <div className="nav-menu-content">
             <ul className="nav-menu-ul"> 
-              <li className="nav-menu-ul-items">
+              <li className="nav-menu-ul-items"  style={isCategoryMenuExpand ? {} : {border: 0}}>
                 <button className="nav-menu-header" aria-expanded={isCategoryMenuExpand} onClick={()=>setIsCategoryMenuExpand(prev=> !prev)}>
                   Categories
                   <span></span>
                 </button>
-                <div className="nav-menu-ul-content">
-                
+                <div className={`${isCategoryMenuExpand ?"nav-menu-ul-content-expand":"nav--menu-ul-content-collapse"} open`} >
+                <ul className="nav-menu--inner-ul">
+                  <li className="nav-menu--inner-li">
+                    <div className="--ul-image">
+                      <img loading="lazy" height="100" width="100" alt="Wireless Earbuds" src="//www.boat-lifestyle.com/cdn/shop/collections/dropdown-TWS_100x.png?v=1684827062" srcSet="//www.boat-lifestyle.com/cdn/shop/collections/dropdown-TWS_100x.png?v=1684827062 100w"/>
+                    </div>
+                    <p>True Wireless Earbuds</p>
+                  </li>
+                   <li className="nav-menu--inner-li">
+                    <div className="--ul-image">
+                      <img loading="lazy" height="100" width="100" alt="Wireless Earbuds" src="//www.boat-lifestyle.com/cdn/shop/collections/dropdown-TWS_100x.png?v=1684827062" srcSet="//www.boat-lifestyle.com/cdn/shop/collections/dropdown-TWS_100x.png?v=1684827062 100w"/>
+                    </div>
+                    <p>True Wireless Earbuds</p>
+                  </li>
+                   <li className="nav-menu--inner-li">
+                    <div className="--ul-image">
+                      <img loading="lazy" height="100" width="100" alt="Wireless Earbuds" src="//www.boat-lifestyle.com/cdn/shop/collections/dropdown-TWS_100x.png?v=1684827062" srcSet="//www.boat-lifestyle.com/cdn/shop/collections/dropdown-TWS_100x.png?v=1684827062 100w"/>
+                    </div>
+                    <p>True Wireless Earbuds</p>
+                  </li>
+                   <li className="nav-menu--inner-li">
+                    <div className="--ul-image">
+                      <img loading="lazy" height="100" width="100" alt="Wireless Earbuds" src="//www.boat-lifestyle.com/cdn/shop/collections/dropdown-TWS_100x.png?v=1684827062" srcSet="//www.boat-lifestyle.com/cdn/shop/collections/dropdown-TWS_100x.png?v=1684827062 100w"/>
+                    </div>
+                    <p>True Wireless Earbuds</p>
+                  </li>
+                   <li className="nav-menu--inner-li">
+                    <div className="--ul-image">
+                      <img loading="lazy" height="100" width="100" alt="Wireless Earbuds" src="//www.boat-lifestyle.com/cdn/shop/collections/dropdown-TWS_100x.png?v=1684827062" srcSet="//www.boat-lifestyle.com/cdn/shop/collections/dropdown-TWS_100x.png?v=1684827062 100w"/>
+                    </div>
+                    <p>True Wireless Earbuds</p>
+                  </li>
+                   <li className="nav-menu--inner-li">
+                    <div className="--ul-image">
+                      <img loading="lazy" height="100" width="100" alt="Wireless Earbuds" src="//www.boat-lifestyle.com/cdn/shop/collections/dropdown-TWS_100x.png?v=1684827062" srcSet="//www.boat-lifestyle.com/cdn/shop/collections/dropdown-TWS_100x.png?v=1684827062 100w"/>
+                    </div>
+                    <p>True Wireless Earbuds</p>
+                  </li>
+                </ul>
                 </div>
               </li>
             </ul>
